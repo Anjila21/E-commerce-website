@@ -44,10 +44,96 @@
     </div>
   </div>
 </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <ul class="navbar-nav me-auto"><li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Welcome Guest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">login</a>
+        </li>
+      </ul>
+</nav>
+  <div class="bg-light">
+    <h3 class="text-center">It Suits You</h3>
+    <p class="text-center">Whatever you purchase... It Suits you!!!</p>
+  </div>
+  <div class="row">
 
+    <div class="col-md-10">
+     <div class="row">
+        <div class="col-md-4 mb-2">
+        <div class="card">
+ <img src=".\images\novel.jpg" class="card-img-top" alt="...">
+   <div class="card-body">
+    <h5 class="card-title text-center">It Ends with us</h5>
+    <p class="card-text">Novel that redefines your perceptions for love and relationship.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View more</a>
+   </div>
+   </div>
+   </div>
+        <div class="col-md-4">
+        <div class="card" >
+  <img src=".\images\earlobring.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Ear Lob Earing</h5>
+    <p class="card-text">Earing for ear that enhances your features.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View More</a>
+  </div>
+</div>
+       
+</div>
+        <div class="col-md-4">
+        <div class="card">
+  <img src=".\images\ludo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Ludo Board</h5>
+    <p class="card-text">Wooden Ludo board for your free time.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View more</a>
+  </div>
+</div>
+    </div>
+        <div class="col-md-4">
+        <div class="card">
+  <img src=".\images\bangles.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Blue Glass Bangle</h5>
+    <p class="card-text">Beautiful blue glass bangles with golden touch in it. Best for festive seasons.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View more</a>
+  </div>
+</div>
+      </div>
+      
+        <div class="col-md-4">
+        <div class="card">
+  <img src=".\images\saree.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Saree</h5>
+    <p class="card-text">Black and golden saree to brighten up your day.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View more</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2 bg-secondary p-0">
+        <ul class="navbar-nav me-auto text-center">
+          <li class="nav-item bg-danger">
+            <a href="#" class="nav-link text-light">
+              <h4> Delivery Brands</h4>
+            </a>
+          </li>
+        </ul>
+</div>
+ </div>
+  <!-- footer part -->
 <div class="bg-danger text-center ">
   <p>All rights reserved <i class="fa-regular fa-copyright" style="color: #100909;"></i> - Designed by Anjila Tripathi-2023</p>
-</div>
+</div> 
 </div>
 <!-- JS through bootstrap !-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

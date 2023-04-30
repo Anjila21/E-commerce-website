@@ -139,6 +139,65 @@
               <h4> Delivery Brands</h4>
             </a>
           </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+              Brands
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+              Brands
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+             Brands
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+             Brands
+            </a>
+          </li>
+
+
+        </ul>
+        <ul class="navbar-nav me-auto text-center">
+          <li class="nav-item bg-danger">
+            <a href="#" class="nav-link text-light">
+              <h4>Categories</h4>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+            Categories
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+            Categories
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+            Categories
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-light">
+           Categories
+            </a>
+          </li>
+
+
         </ul>
 </div>
  </div>

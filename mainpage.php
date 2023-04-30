@@ -118,6 +118,18 @@
   </div>
 </div>
 </div>
+<div class="col-md-4">
+        <div class="card">
+  <img src=".\images\photo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">Photo Frame</h5>
+    <p class="card-text">Family photo frames prefect place for you memories.</p>
+    <a href="#" class="btn btn-danger">Add to Cart</a>
+    <a href="#" class="btn btn-danger">View more</a>
+  </div>
+</div>
+</div>
+
 </div>
 </div>
 <div class="col-md-2 bg-secondary p-0">

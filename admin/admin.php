@@ -42,7 +42,7 @@
                     <a href="#"> <img src="../images/dd.jpg" alt="" class="admin-image"> <p class="text-light text-center">Anjila Tripathi</p></a>
                 </div>
                 <div class="botton text-center">
-                <button class="p-1"><a href="" class="nav-link text-light bg-danger my-3 pd-3">Insert Products</a></button>
+                <button class="p-1"><a href="insert-product.php" class="nav-link text-light bg-danger my-3 pd-3">Insert Products</a></button>
                 <button class="p-1"><a href="" class="nav-link text-light bg-danger my-3 pd-3">View Products</a></button>
                <button class="p-1"><a href="admin.php?insertcat" class="nav-link text-light bg-danger my-3 pd-3">Insert Categories</a></button>
                <button class="p-1"><a href="" class="nav-link text-light bg-danger my-3 pd-3">View Categories</a></button>
@@ -55,17 +55,13 @@
                 </div>
             </div>
         </div>
-<div class="container my-5">
+<div class="container my-3">
     <?php
     if(isset($_GET['insertcat']))
     {
         include('insertcat.php');
     }
-     ?>
-
-</div>
-<div class="container my-5">
-    <?php
+  
     if(isset($_GET['insertbrand']))
     {
         include('insertbrand.php');
@@ -73,9 +69,6 @@
      ?>
 
 </div>
-
-
-
         <div class="bg-danger text-center ">
   <p>All rights reserved <i class="fa-regular fa-copyright" style="color: #100909;"></i> - Designed by Anjila Tripathi-2023</p>
 </div> 

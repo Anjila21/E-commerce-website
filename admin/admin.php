@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-md-12 bg-secondary  d-flex align-items-center">
                 <div class="px-3">
-                    <a href="#"> <img src="../images/dd.jpg" alt="" class="admin-image"> <p class="text-light text-center">Anjila Tripathi</p></a>
+                    <a href="#"> <img src="../images/mango1.jpg" alt="" class="admin-image"> <p class="text-light text-center">Anjila Tripathi</p></a>
                 </div>
                 <div class="botton text-center">
                 <button class="p-1"><a href="insert-product.php" class="nav-link text-light bg-danger my-3 pd-3">Insert Products</a></button>

@@ -10,17 +10,17 @@ if(isset($_POST['insert_product']))
     $product_price=$_POST['product_price'];
     $product_status= 'true';
 
-    $product_image1=$_FILES['product_product_image1']['name'];
-    $product_image2=$_FILES['product_product_image2']['name'];
-    $product_image3=$_FILES['product_product_image3']['name'];
+    $product_image1=$_FILES['product_image1']['name'];
+    $product_image2=$_FILES['product_image2']['name'];
+    $product_image3=$_FILES['product_image3']['name'];
 
-    $temp_image1=$_FILES['product_product_image1']['tmp_name'];
-    $temp_image2=$_FILES['product_product_image2']['tmp_name'];
-    $temp_image3=$_FILES['product_product_image3']['tmp_name'];
+    $temp_image1=$_FILES['product_image1']['tmp_name'];
+    $temp_image2=$_FILES['product_image2']['tmp_name'];
+    $temp_image3=$_FILES['product_image3']['tmp_name'];
 
     if($product_title=='' or $product_description=='' or $product_keyword=='' or  $product_category=='' or $product_price=='' or $product_image1=='' or $product_image2=='' or $product_image3=='')
     {
-        echo "<script>alert('Your response is incomplete please fill up the form completely')</script>";
+        echo "alert('Your response is incomplete please fill up the form completely')";
         exit();
     }
     else
@@ -29,11 +29,11 @@ if(isset($_POST['insert_product']))
         move_uploaded_file($temp_image2,"./added_product_images/$product_image2");
         move_uploaded_file($temp_image3,"./added_product_images/$product_image3");
 
-        $insert_produts="insert into`products`(product_title,product_description,product_keyword,category_id,product_image1,product_image2,product_image3,product_price,date,status) values ('$product_title', '$product_description', '$product_keyword', '$product_category', '$product_image1', '$product_image2','$product_image3','$product_price',NOW(),'product_status');
+        $insert_products="insert into`products`(product_title,product_description,product_keyword,category_id,product_image1,product_image2,product_image3,product_price,date,status) values ('$product_title', '$product_description', '$product_keyword', '$product_category', '$product_image1', '$product_image2','$product_image3','$product_price',NOW(),'product_status');
 
-        $result_query=mysqli_query($con,$insert_products);
+        $result_query=mysqli_query($con,$insert_product);
         if($result_query){
-            echo "<script>alert('Successfully inserted the products')</script>";
+            echo "('Successfully inserted the products')";
        }
         
     }
@@ -41,7 +41,7 @@ if(isset($_POST['insert_product']))
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -111,7 +111,7 @@ if(isset($_POST['insert_product']))
         </div>
         <div class="form-outline mb-4 w-50 m-auto">
          <label for="product_price" class="form-label">Product Price</label>
-         <input type="text" name="product_description" id="product_price" class="form-control" placeholder="Enter Product Price" autocomplete="off" required>
+         <input type="text" name="product_price" id="product_price" class="form-control" placeholder="Enter Product Price" autocomplete="off" required>
         </div>
         <div class="form-outline mb-4 w-50 m-auto">
             <input type="submit" name="insert_product" class="btn btn-secondary   mb-3 px-3" value="Insert Products">
